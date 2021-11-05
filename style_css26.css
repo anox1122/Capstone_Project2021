@@ -1,0 +1,322 @@
+* { margin: 0px; padding: 0px; }
+body {
+	
+
+
+}
+.bgimg{
+	
+}
+.bg{
+	background-image: url("classroom.jfif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: black;
+	text-align: center;
+	border: 1px solid black;
+	border-bottom: none;
+	margin-top: 100px;
+	border-radius: 0px;
+	padding: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+	border-radius: 0px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 90%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 1px;
+	border: 1px solid gray;
+	background: transparent;
+    border: 1px;
+    border-bottom: 1px solid #000000;
+
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	float: left;
+}
+
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.tableattrib {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+.tableattrib1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 10%;
+  
+}
+.tableattrib2 {
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	background-color: black;
+}
+.tableattrib3 {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px; 
+  	width: 20%;
+  	background-color: black;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.td2 {
+	width: 1%;
+}
+.td1 {
+	width: 1450px;
+}
+.pics{
+	width: 100%;
+}
+.dropbtn {
+  background-image : url("../pics/burger_menu.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;  
+  font-size: 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+  border: none;
+}
+.deletebtn {
+  border: 1px;
+  color: black;
+   background-color: white;
+  padding: 16px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropbtn{
+  background-color: #3B3B3B;
+}
+.dropdown:hover .deletebtn{
+  background-color: #E5E5E5;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+  z-index: 1;
+}.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {background-color: #f1f1f1}
+
+
+.horiline{
+width:100%;
+text-align:center
+margin-left:0;
+color: black;
+background-color: black;
+margin-top: 10px;
+}.w3-show{
+	display:block!important
+}
+.container2 input[type=text] {
+  padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  border: none;
+   border-radius: 0px;
+
+}
+.container2 button{
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  margin-bottom: 50px;
+  color: white;
+  padding: 2px;  
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+}.searchbutton:hover{
+  background-color: grey;
+}
+.reason_pic{
+	width: 240px;
+	height: 240px;
+}.reason{
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	padding-top: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
+	border: 1px;
+}.reason_btn{
+	border-radius: 20px;
+	cursor: pointer;
+	border: 0px;
+}.grid{
+	display: grid;
+  	grid-template-columns: 200px 200px 200px;
+}.text{
+	text-align: center;
+	padding-top: 20px;
+}.back_reason{
+	align-items: normal;
+ 	background-color: rgba(0,0,0,0);
+ 	border-color: rgb(0, 0, 238);
+ 	border-style: none;
+ 	box-sizing: content-box;
+ 	color: rgb(0, 0, 238); 
+ 	cursor: pointer;
+ 	display: inline;
+ 	font: inherit;
+ 	height: auto;
+ 	padding: 0;
+ 	perspective-origin: 0 0;
+ 	text-align: start;
+ 	text-decoration: underline;
+ 	transform-origin: 0 0;
+ 	width: auto;
+ 	-moz-appearance: none;
+ 	-webkit-logical-height: 1em; /* Chrome ignores auto, so we have to use this hack to set the correct height  */
+ 	-webkit-logical-width: auto; /* Chrome ignores auto, but here for completeness */
+}
+.table_choices{
+	padding: 10px;
+	border:1px black;
+}
+.tr_choice{
+	column-span: 2;
+}
+.td_choice{
+
+}
